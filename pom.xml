@@ -26,7 +26,7 @@
 
     <groupId>eu.over9000</groupId>
     <artifactId>zole</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <name>zole</name>
     <description>simple enum based FSM library</description>
     <packaging>jar</packaging>
@@ -51,7 +51,7 @@
         <connection>scm:git:git@github.com:s1mpl3x/zole.git</connection>
         <developerConnection>scm:git:git@github.com:s1mpl3x/zole.git</developerConnection>
         <url>https://github.com/s1mpl3x/zole</url>
-        <tag>zole-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
