@@ -3,6 +3,20 @@ Zole is a simple FSM (finite state machine) implementation.
 States and inputs are defined as enums. Callbacks can be registered for state entry/exit as well as on transitions.
 An exception will be thrown when no transition is given for the current input/state.
 
+## Usage
+
+Add zole as a dependency using Maven:
+```xml
+<dependency>
+  <groupId>eu.over9000</groupId>
+  <artifactId>zole</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+Or see [releases](https://github.com/s1mpl3x/zole/releases).
+
+## Example
+
 Usage example of a FSM accepting binary numbers divisible by three: 
 
 ```java
