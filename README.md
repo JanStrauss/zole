@@ -1,4 +1,7 @@
 # zole
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/eu.over9000/zole/badge.svg)](https://maven-badges.herokuapp.com/maven-central/eu.over9000/zole)
+
 Zole is a simple FSM (finite state machine) implementation.
 States and inputs are defined as enums. Callbacks can be registered for state entry/exit as well as on transitions.
 An exception will be thrown when no transition is given for the current input/state.
